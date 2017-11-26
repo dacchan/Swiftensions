@@ -224,9 +224,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3908BB1D1E6AC709009F6E5C /* Swiftensions */ = {
+		3908BB1D1E6AC709009F6E5C /* Swiftensions-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3908BB321E6AC709009F6E5C /* Build configuration list for PBXNativeTarget "Swiftensions" */;
+			buildConfigurationList = 3908BB321E6AC709009F6E5C /* Build configuration list for PBXNativeTarget "Swiftensions-iOS" */;
 			buildPhases = (
 				3908BB191E6AC709009F6E5C /* Sources */,
 				3908BB1A1E6AC709009F6E5C /* Frameworks */,
@@ -237,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = Swiftensions;
+			name = "Swiftensions-iOS";
 			productName = Swiftensions;
 			productReference = 3908BB1E1E6AC709009F6E5C /* Swiftensions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3908BB261E6AC709009F6E5C /* SwiftensionsTests */ = {
+		3908BB261E6AC709009F6E5C /* Swiftensions-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3908BB351E6AC709009F6E5C /* Build configuration list for PBXNativeTarget "SwiftensionsTests" */;
+			buildConfigurationList = 3908BB351E6AC709009F6E5C /* Build configuration list for PBXNativeTarget "Swiftensions-iOSTests" */;
 			buildPhases = (
 				3908BB231E6AC709009F6E5C /* Sources */,
 				3908BB241E6AC709009F6E5C /* Frameworks */,
@@ -255,7 +255,7 @@
 			dependencies = (
 				3908BB2A1E6AC709009F6E5C /* PBXTargetDependency */,
 			);
-			name = SwiftensionsTests;
+			name = "Swiftensions-iOSTests";
 			productName = SwiftensionsTests;
 			productReference = 3908BB271E6AC709009F6E5C /* SwiftensionsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -293,8 +293,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3908BB1D1E6AC709009F6E5C /* Swiftensions */,
-				3908BB261E6AC709009F6E5C /* SwiftensionsTests */,
+				3908BB1D1E6AC709009F6E5C /* Swiftensions-iOS */,
+				3908BB261E6AC709009F6E5C /* Swiftensions-iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -357,7 +357,7 @@
 /* Begin PBXTargetDependency section */
 		3908BB2A1E6AC709009F6E5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3908BB1D1E6AC709009F6E5C /* Swiftensions */;
+			target = 3908BB1D1E6AC709009F6E5C /* Swiftensions-iOS */;
 			targetProxy = 3908BB291E6AC709009F6E5C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -475,7 +475,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dacchan.Swiftensions;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -495,7 +495,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dacchan.Swiftensions;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -508,7 +508,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dacchan.SwiftensionsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -520,7 +520,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dacchan.SwiftensionsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -537,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3908BB321E6AC709009F6E5C /* Build configuration list for PBXNativeTarget "Swiftensions" */ = {
+		3908BB321E6AC709009F6E5C /* Build configuration list for PBXNativeTarget "Swiftensions-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3908BB331E6AC709009F6E5C /* Debug */,
@@ -546,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3908BB351E6AC709009F6E5C /* Build configuration list for PBXNativeTarget "SwiftensionsTests" */ = {
+		3908BB351E6AC709009F6E5C /* Build configuration list for PBXNativeTarget "Swiftensions-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3908BB361E6AC709009F6E5C /* Debug */,
