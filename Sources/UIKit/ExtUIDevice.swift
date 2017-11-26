@@ -10,7 +10,7 @@ import UIKit
 
 extension UIDevice {
     public static var modelType: DeviceModel {
-        return DeviceModel(modelName: modelName)
+        return DeviceModel(identifier: modelIdentifier)
     }
 
     public static var modelName: String {
@@ -110,8 +110,8 @@ public enum DeviceModel: String {
 
     // MARK:
 
-    init(modelName: String) {
-        self = DeviceModel(rawValue: modelName) ?? .newest
+    init(identifier: String) {
+        self = DeviceModel(rawValue: identifier) ?? .newest
     }
 
     // MARK:
