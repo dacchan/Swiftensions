@@ -110,17 +110,17 @@ public enum DeviceModel: String {
 
     // MARK:
 
-    init(identifier: String) {
+    public init(identifier: String) {
         self = DeviceModel(rawValue: identifier) ?? .newest
     }
 
     // MARK:
 
-    var identifier: String {
+    public var identifier: String {
         return self.rawValue
     }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .newest: return "newest iOS device"
 
