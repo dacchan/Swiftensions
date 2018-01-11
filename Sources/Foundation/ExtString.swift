@@ -8,6 +8,8 @@
 
 import Foundation
 
+// MARK: -
+
 public enum StringCountType {
     case utf8
     case utf16
@@ -32,8 +34,65 @@ extension String {
 }
 
 extension String {
-//    public func localized(tableName: String? = default, bundle: Bundle = default, value: String = default, comment: String = "") -> String {
-//        // TODO: NSLocalizedString(_ key: String, tableName: String? = default, bundle: Bundle = default, value: String = default, comment: String)
-//        return NSLocalizedString(self, comment: comment)
-//    }
+    public func localized(tableName: String? = nil, bundle: Bundle = Bundle.main, value: String = "", comment: String = "") -> String {
+        return NSLocalizedString(self, tableName: tableName, bundle: bundle, value: value, comment: comment)
+    }
+}
+
+// MARK: - operator +
+
+public func + (lhs: String, rhs: Int8) -> String {
+    return lhs + String(rhs)
+}
+
+public func + (lhs: String, rhs: UInt8) -> String {
+    return lhs + String(rhs)
+}
+
+public func + (lhs: String, rhs: Int16) -> String {
+    return lhs + String(rhs)
+}
+
+public func + (lhs: String, rhs: UInt16) -> String {
+    return lhs + String(rhs)
+}
+
+public func + (lhs: String, rhs: Int32) -> String {
+    return lhs + String(rhs)
+}
+
+public func + (lhs: String, rhs: UInt32) -> String {
+    return lhs + String(rhs)
+}
+
+public func + (lhs: String, rhs: Int64) -> String {
+    return lhs + String(rhs)
+}
+
+public func + (lhs: String, rhs: UInt64) -> String {
+    return lhs + String(rhs)
+}
+
+public func + (lhs: String, rhs: Float) -> String {
+    return lhs + String(rhs)
+}
+
+public func + (lhs: String, rhs: Double) -> String {
+    return lhs + String(rhs)
+}
+
+public func + (lhs: String, rhs: Bool) -> String {
+    return lhs + String(rhs)
+}
+
+public func + (lhs: String, rhs: Int) -> String {
+    return lhs + String(rhs)
+}
+
+public func + (lhs: String, rhs: UInt) -> String {
+    return lhs + String(rhs)
+}
+
+public func + (lhs: String, rhs: NSNumber) -> String {
+    return lhs + rhs.stringValue
 }
