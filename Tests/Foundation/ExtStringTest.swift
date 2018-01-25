@@ -35,14 +35,4 @@ class ExStringTest: XCTestCase {
         // NOTE: "🇯🇵".unicodeScalars.count = 2
         XCTAssert(count == 2)
     }
-    
-    func testCharactersCount() {
-        let val = "🇯🇵"
-        let count = val.charactersCount
-
-        // NOTE: "🇯🇵".characters.count = 1
-        XCTAssert(count == 1)
-    }
-    
-
 }
