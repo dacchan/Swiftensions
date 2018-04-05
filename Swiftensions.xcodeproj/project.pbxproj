@@ -30,6 +30,7 @@
 		3908BB881E6AC8E7009F6E5C /* ExtURLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3908BB721E6AC839009F6E5C /* ExtURLTest.swift */; };
 		3908BB8D1E6AC95F009F6E5C /* SwiftensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3908BB8B1E6AC957009F6E5C /* SwiftensionsTests.swift */; };
 		3908BB8E1E6ACB25009F6E5C /* Swiftensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3908BB891E6AC941009F6E5C /* Swiftensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		398B2A2520242AC400E7E349 /* ExtUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B2A2420242AC400E7E349 /* ExtUserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		3908BB721E6AC839009F6E5C /* ExtURLTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtURLTest.swift; sourceTree = "<group>"; };
 		3908BB891E6AC941009F6E5C /* Swiftensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swiftensions.h; sourceTree = "<group>"; };
 		3908BB8B1E6AC957009F6E5C /* SwiftensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftensionsTests.swift; sourceTree = "<group>"; };
+		398B2A2420242AC400E7E349 /* ExtUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtUserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				3908BB521E6AC828009F6E5C /* ExtSequence.swift */,
 				3908BB531E6AC828009F6E5C /* ExtString.swift */,
 				3908BB541E6AC828009F6E5C /* ExtURL.swift */,
+				398B2A2420242AC400E7E349 /* ExtUserDefaults.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3908BB5E1E6AC828009F6E5C /* ExtIndexPath.swift in Sources */,
+				398B2A2520242AC400E7E349 /* ExtUserDefaults.swift in Sources */,
 				3908BB681E6AC828009F6E5C /* ExtUIView.swift in Sources */,
 				3908BB621E6AC828009F6E5C /* ExtString.swift in Sources */,
 				3908BB5C1E6AC828009F6E5C /* ExtBundle.swift in Sources */,
