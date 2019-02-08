@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0920"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3908BB1D1E6AC709009F6E5C"
-               BuildableName = "Swiftensions-iOS.framework"
+               BuildableName = "Swiftensions.framework"
                BlueprintName = "Swiftensions-iOS"
                ReferencedContainer = "container:Swiftensions.xcodeproj">
             </BuildableReference>
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -34,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3908BB261E6AC709009F6E5C"
-               BuildableName = "Swiftensions-iOSTests.xctest"
+               BuildableName = "SwiftensionsTests.xctest"
                BlueprintName = "Swiftensions-iOSTests"
                ReferencedContainer = "container:Swiftensions.xcodeproj">
             </BuildableReference>
@@ -44,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3908BB1D1E6AC709009F6E5C"
-            BuildableName = "Swiftensions-iOS.framework"
+            BuildableName = "Swiftensions.framework"
             BlueprintName = "Swiftensions-iOS"
             ReferencedContainer = "container:Swiftensions.xcodeproj">
          </BuildableReference>
@@ -56,7 +55,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -67,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3908BB1D1E6AC709009F6E5C"
-            BuildableName = "Swiftensions-iOS.framework"
+            BuildableName = "Swiftensions.framework"
             BlueprintName = "Swiftensions-iOS"
             ReferencedContainer = "container:Swiftensions.xcodeproj">
          </BuildableReference>
@@ -85,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3908BB1D1E6AC709009F6E5C"
-            BuildableName = "Swiftensions-iOS.framework"
+            BuildableName = "Swiftensions.framework"
             BlueprintName = "Swiftensions-iOS"
             ReferencedContainer = "container:Swiftensions.xcodeproj">
          </BuildableReference>
