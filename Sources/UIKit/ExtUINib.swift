@@ -9,7 +9,4 @@
 import UIKit
 
 extension UINib {
-    public static func simpleNib<T>() -> T {
-        return UINib(nibName: self.simpleNib(), bundle: nil) as! T
-    }
 }
