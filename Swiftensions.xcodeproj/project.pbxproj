@@ -30,6 +30,10 @@
 		3908BB881E6AC8E7009F6E5C /* ExtURLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3908BB721E6AC839009F6E5C /* ExtURLTest.swift */; };
 		3908BB8D1E6AC95F009F6E5C /* SwiftensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3908BB8B1E6AC957009F6E5C /* SwiftensionsTests.swift */; };
 		3908BB8E1E6ACB25009F6E5C /* Swiftensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3908BB891E6AC941009F6E5C /* Swiftensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39865453220D3E9200B37237 /* ExtRawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39865452220D3E9200B37237 /* ExtRawRepresentable.swift */; };
+		3986545B2210031C00B37237 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3986545A2210031C00B37237 /* Transform.swift */; };
+		398654612210044C00B37237 /* TransformTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398654602210044C00B37237 /* TransformTest.swift */; };
+		398654632210195400B37237 /* RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398654622210195400B37237 /* RawRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,10 @@
 		3908BB721E6AC839009F6E5C /* ExtURLTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtURLTest.swift; sourceTree = "<group>"; };
 		3908BB891E6AC941009F6E5C /* Swiftensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swiftensions.h; sourceTree = "<group>"; };
 		3908BB8B1E6AC957009F6E5C /* SwiftensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftensionsTests.swift; sourceTree = "<group>"; };
+		39865452220D3E9200B37237 /* ExtRawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtRawRepresentable.swift; sourceTree = "<group>"; };
+		3986545A2210031C00B37237 /* Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
+		398654602210044C00B37237 /* TransformTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformTest.swift; sourceTree = "<group>"; };
+		398654622210195400B37237 /* RawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +154,8 @@
 			isa = PBXGroup;
 			children = (
 				3908BB4B1E6AC828009F6E5C /* Foundation */,
+				39865459221002F600B37237 /* Protocols */,
+				39865451220D3E6C00B37237 /* Standard */,
 				3908BB571E6AC828009F6E5C /* UIKit */,
 				3908BB891E6AC941009F6E5C /* Swiftensions.h */,
 			);
@@ -182,7 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				3908BB6A1E6AC839009F6E5C /* Foundation */,
-				3908BB751E6AC839009F6E5C /* UIKit */,
+				3986545C221003F600B37237 /* Protocols */,
+				3986545D221003F600B37237 /* Standard */,
 				3908BB8B1E6AC957009F6E5C /* SwiftensionsTests.swift */,
 			);
 			path = Tests;
@@ -203,11 +214,36 @@
 			path = Foundation;
 			sourceTree = "<group>";
 		};
-		3908BB751E6AC839009F6E5C /* UIKit */ = {
+		39865451220D3E6C00B37237 /* Standard */ = {
 			isa = PBXGroup;
 			children = (
+				39865452220D3E9200B37237 /* ExtRawRepresentable.swift */,
 			);
-			path = UIKit;
+			path = Standard;
+			sourceTree = "<group>";
+		};
+		39865459221002F600B37237 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3986545A2210031C00B37237 /* Transform.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3986545C221003F600B37237 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				398654602210044C00B37237 /* TransformTest.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3986545D221003F600B37237 /* Standard */ = {
+			isa = PBXGroup;
+			children = (
+				398654622210195400B37237 /* RawRepresentable.swift */,
+			);
+			path = Standard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,10 +363,12 @@
 				3908BB621E6AC828009F6E5C /* ExtString.swift in Sources */,
 				3908BB5C1E6AC828009F6E5C /* ExtBundle.swift in Sources */,
 				3908BB5B1E6AC828009F6E5C /* ExtArray.swift in Sources */,
+				39865453220D3E9200B37237 /* ExtRawRepresentable.swift in Sources */,
 				3908BB671E6AC828009F6E5C /* ExtUINib.swift in Sources */,
 				3908BB601E6AC828009F6E5C /* ExtOptional.swift in Sources */,
 				3908BB5F1E6AC828009F6E5C /* ExtNumber.swift in Sources */,
 				3908BB611E6AC828009F6E5C /* ExtSequence.swift in Sources */,
+				3986545B2210031C00B37237 /* Transform.swift in Sources */,
 				3908BB5D1E6AC828009F6E5C /* ExtCalendar.swift in Sources */,
 				3908BB631E6AC828009F6E5C /* ExtURL.swift in Sources */,
 				3908BB661E6AC828009F6E5C /* ExtUIDevice.swift in Sources */,
@@ -343,12 +381,14 @@
 			files = (
 				3908BB841E6AC8E7009F6E5C /* ExtNumberTest.swift in Sources */,
 				3908BB851E6AC8E7009F6E5C /* ExtOptionalTest.swift in Sources */,
+				398654612210044C00B37237 /* TransformTest.swift in Sources */,
 				3908BB821E6AC8E7009F6E5C /* ExtCalendarTest.swift in Sources */,
 				3908BB811E6AC8E7009F6E5C /* ExtArrayTest.swift in Sources */,
 				3908BB831E6AC8E7009F6E5C /* ExtIndexPath.swift in Sources */,
 				3908BB871E6AC8E7009F6E5C /* ExtStringTest.swift in Sources */,
 				3908BB881E6AC8E7009F6E5C /* ExtURLTest.swift in Sources */,
 				3908BB8D1E6AC95F009F6E5C /* SwiftensionsTests.swift in Sources */,
+				398654632210195400B37237 /* RawRepresentable.swift in Sources */,
 				3908BB861E6AC8E7009F6E5C /* ExtSequenceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
