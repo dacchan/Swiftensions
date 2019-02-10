@@ -3,7 +3,7 @@
 //  Swiftensions-iOS
 //
 //  Created by dacchan on 2019/02/10.
-//  Copyright © 2019年 dacchan. All rights reserved.
+//  Copyright © 2019 dacchan. All rights reserved.
 //
 
 public protocol TransformProtocol {
