@@ -30,6 +30,8 @@
 		3908BB881E6AC8E7009F6E5C /* ExtURLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3908BB721E6AC839009F6E5C /* ExtURLTest.swift */; };
 		3908BB8D1E6AC95F009F6E5C /* SwiftensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3908BB8B1E6AC957009F6E5C /* SwiftensionsTests.swift */; };
 		3908BB8E1E6ACB25009F6E5C /* Swiftensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3908BB891E6AC941009F6E5C /* Swiftensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39865453220D3E9200B37237 /* ExtRawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39865452220D3E9200B37237 /* ExtRawRepresentable.swift */; };
+		398654632210195400B37237 /* RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398654622210195400B37237 /* RawRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		3908BB721E6AC839009F6E5C /* ExtURLTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtURLTest.swift; sourceTree = "<group>"; };
 		3908BB891E6AC941009F6E5C /* Swiftensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swiftensions.h; sourceTree = "<group>"; };
 		3908BB8B1E6AC957009F6E5C /* SwiftensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftensionsTests.swift; sourceTree = "<group>"; };
+		39865452220D3E9200B37237 /* ExtRawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtRawRepresentable.swift; sourceTree = "<group>"; };
+		398654622210195400B37237 /* RawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				3908BB4B1E6AC828009F6E5C /* Foundation */,
+				39865451220D3E6C00B37237 /* Standard */,
 				3908BB571E6AC828009F6E5C /* UIKit */,
 				3908BB891E6AC941009F6E5C /* Swiftensions.h */,
 			);
@@ -182,7 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				3908BB6A1E6AC839009F6E5C /* Foundation */,
-				3908BB751E6AC839009F6E5C /* UIKit */,
+				3986545D221003F600B37237 /* Standard */,
 				3908BB8B1E6AC957009F6E5C /* SwiftensionsTests.swift */,
 			);
 			path = Tests;
@@ -203,11 +208,20 @@
 			path = Foundation;
 			sourceTree = "<group>";
 		};
-		3908BB751E6AC839009F6E5C /* UIKit */ = {
+		39865451220D3E6C00B37237 /* Standard */ = {
 			isa = PBXGroup;
 			children = (
+				39865452220D3E9200B37237 /* ExtRawRepresentable.swift */,
 			);
-			path = UIKit;
+			path = Standard;
+			sourceTree = "<group>";
+		};
+		3986545D221003F600B37237 /* Standard */ = {
+			isa = PBXGroup;
+			children = (
+				398654622210195400B37237 /* RawRepresentable.swift */,
+			);
+			path = Standard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +341,7 @@
 				3908BB621E6AC828009F6E5C /* ExtString.swift in Sources */,
 				3908BB5C1E6AC828009F6E5C /* ExtBundle.swift in Sources */,
 				3908BB5B1E6AC828009F6E5C /* ExtArray.swift in Sources */,
+				39865453220D3E9200B37237 /* ExtRawRepresentable.swift in Sources */,
 				3908BB671E6AC828009F6E5C /* ExtUINib.swift in Sources */,
 				3908BB601E6AC828009F6E5C /* ExtOptional.swift in Sources */,
 				3908BB5F1E6AC828009F6E5C /* ExtNumber.swift in Sources */,
@@ -349,6 +364,7 @@
 				3908BB871E6AC8E7009F6E5C /* ExtStringTest.swift in Sources */,
 				3908BB881E6AC8E7009F6E5C /* ExtURLTest.swift in Sources */,
 				3908BB8D1E6AC95F009F6E5C /* SwiftensionsTests.swift in Sources */,
+				398654632210195400B37237 /* RawRepresentable.swift in Sources */,
 				3908BB861E6AC8E7009F6E5C /* ExtSequenceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
