@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name    = "Swiftensions"
-  spec.version = "1.0.0"
+  spec.version = "1.0.1"
   spec.summary = "Swiftensions is a little handy library of Swift Extensions."
 
   spec.description  = <<-DESC
