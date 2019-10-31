@@ -43,7 +43,7 @@ public enum DeviceModel: String {
     case newest = "newest iOS device"
 
     // MARK: - iPhone
-    
+
     case iPhone1_1 = "iPhone1,1"
     case iPhone1_2 = "iPhone1,2"
     case iPhone2_1 = "iPhone2,1"
@@ -70,6 +70,13 @@ public enum DeviceModel: String {
     case iPhone10_4 = "iPhone10,4"
     case iPhone10_5 = "iPhone10,5"
     case iPhone10_6 = "iPhone10,6"
+    case iPhone11_2 = "iPhone11,2"
+    case iPhone11_4 = "iPhone11,4"
+    case iPhone11_6 = "iPhone11,6"
+    case iPhone11_8 = "iPhone11,8"
+    case iPhone12_1 = "iPhone12,1"
+    case iPhone12_3 = "iPhone12,3"
+    case iPhone12_5 = "iPhone12,5"
 
     // MARK: - iPad
     
@@ -150,6 +157,13 @@ public enum DeviceModel: String {
         case .iPhone10_4: return "iPhone 8"
         case .iPhone10_5: return "iPhone 8 Plus"
         case .iPhone10_6: return "iPhone X"
+        case .iPhone11_2: return "iPhone XS"
+        case .iPhone11_4: return "iPhone XS Max"
+        case .iPhone11_6: return "iPhone XS Max (Global)"
+        case .iPhone11_8: return "iPhone XR"
+        case .iPhone12_1: return "iPhone 11"
+        case .iPhone12_3: return "iPhone 11 Pro"
+        case .iPhone12_5: return "iPhone 11 Pro Max"
 
         case .iPad1_1: return "iPad 1G"
         case .iPad2_1: return "iPad 2 (Wi-Fi Only)"
