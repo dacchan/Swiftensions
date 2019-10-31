@@ -1,6 +1,6 @@
 # Swiftensions
 
-`Swiftensions` is a little handy library of Swift extensions.
+`Swiftensions` is a little handy library of Swift Extensions.
 
 
 ## Requirements
