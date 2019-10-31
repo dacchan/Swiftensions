@@ -39,6 +39,7 @@ extension UIDevice {
 
 ///
 public enum DeviceModel: String {
+    // See: https://gist.github.com/adamawolf/3048717
 
     case newest = "newest iOS device"
 
