@@ -79,7 +79,7 @@ public enum DeviceModel: String {
     case iPhone12_5 = "iPhone12,5"
 
     // MARK: - iPad
-    
+
     case iPad1_1 = "iPad1,1"
     case iPad2_1 = "iPad2,1"
     case iPad2_2 = "iPad2,2"
@@ -114,6 +114,22 @@ public enum DeviceModel: String {
     case iPad7_2 = "iPad7,2"
     case iPad7_3 = "iPad7,3"
     case iPad7_4 = "iPad7,4"
+    case iPad7_5 = "iPad7,5"
+    case iPad7_6 = "iPad7,6"
+    case iPad7_11 = "iPad7,11"
+    case iPad7_12 = "iPad7,12"
+    case iPad8_1 = "iPad8,1"
+    case iPad8_2 = "iPad8,2"
+    case iPad8_3 = "iPad8,3"
+    case iPad8_4 = "iPad8,4"
+    case iPad8_5 = "iPad8,5"
+    case iPad8_6 = "iPad8,6"
+    case iPad8_7 = "iPad8,7"
+    case iPad8_8 = "iPad8,8"
+    case iPad11_1 = "iPad11,1"
+    case iPad11_2 = "iPad11,2"
+    case iPad11_3 = "iPad11,3"
+    case iPad11_4 = "iPad11,4"
 
     // MARK:
 
@@ -199,6 +215,23 @@ public enum DeviceModel: String {
         case .iPad7_2: return "iPad Pro 12.9-Inch (Wi-Fi/Cellular - 2nd Gen)"
         case .iPad7_3: return "iPad Pro 10.5-Inch (Wi-Fi Only)"
         case .iPad7_4: return "iPad Pro 10.5-Inch (Wi-Fi/Cellular)"
+        case .iPad7_5: return "iPad 6th Gen (Wi-Fi Only)"
+        case .iPad7_6: return "iPad 6th Gen (Wi-Fi/Cellular)"
+        case .iPad7_11: return "iPad 7th Gen 10.2-inch (WiFi Only)"
+        case .iPad7_12: return "iPad 7th Gen 10.2-inch (WiFi+Cellular)"
+        case .iPad8_1: return "iPad Pro 3rd Gen 11-inch (Wi-Fi Only)"
+        case .iPad8_2: return "iPad Pro 3rd Gen 11-inch (Wi-Fi Only - 1TB)"
+        case .iPad8_3: return "iPad Pro 3rd Gen 11-inch (Wi-Fi+Cellular)"
+        case .iPad8_4: return "iPad Pro 3rd Gen 11-inch (Wi-Fi+Cellular - 1TB)"
+        case .iPad8_5: return "iPad Pro 3rd Gen 12.9-inch (Wi-Fi Only)"
+        case .iPad8_6: return "iPad Pro 3rd Gen 12.9-inch (Wi-Fi Only - 1TB)"
+        case .iPad8_7: return "iPad Pro 3rd Gen 12.9-inch (Wi-Fi+Cellular)"
+        case .iPad8_8: return "iPad Pro 3rd Gen 12.9-inch (Wi-Fi+Cellular - 1TB)"
+        case .iPad11_1: return "iPad mini 5th Gen (Wi-Fi)"
+        case .iPad11_2: return "iPad mini 5th Gen"
+        case .iPad11_3: return "iPad Air 3rd Gen (Wi-Fi)"
+        case .iPad11_4: return "iPad Air 3rd Gen"
+
         }
     }
 }
