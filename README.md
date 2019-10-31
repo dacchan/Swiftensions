@@ -4,7 +4,7 @@
 
 
 ## Requirements
-- Swift 4 / Xcode 9.2
+- Swift 5.1 / Xcode 11.1
 - iOS 8.0 and later
 
 
@@ -15,7 +15,7 @@
 - Bundle
 - Calendar
 - IndexPath
-- NSNumber
+- Number (NSNumber)
 - Optional
 - Sequence
 - String
