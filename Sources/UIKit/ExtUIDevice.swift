@@ -40,6 +40,8 @@ extension UIDevice {
 ///
 public enum DeviceModel: String {
     // See: https://gist.github.com/adamawolf/3048717
+    //   - https://www.theiphonewiki.com/wiki/Models#iPhone
+    //   - https://www.theiphonewiki.com/wiki/Models#iPad
 
     case newest = "newest iOS device"
 
@@ -240,7 +242,6 @@ public enum DeviceModel: String {
         case .iPad11_2: return "iPad mini 5"
         case .iPad11_3: return "iPad Air 3 (Wi-Fi)"
         case .iPad11_4: return "iPad Air 3"
-
         }
     }
 }
